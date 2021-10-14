@@ -3,13 +3,13 @@
 
 int main(){
 
-	char arr[11] = "Bangladesh";
+	char arr[100] = "Bangladesh";
 
 	//Calculate length of the String
 	int length  = strlen(arr);
 
 	//display array length
-	printf("So, the string \"%s\" length is: %d\n", arr, length); // So, array length is:6
+	printf("So, the string \"%s\" length is: %d\n", arr, length); // So, the string "Bangladesh" length is: 10
 
 	return 0;
 }
